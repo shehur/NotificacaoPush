@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <title>Notificação Push</title>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+    <script>
+      var config = {
+        apiKey: "AIzaSyC_QUzcv0OjG46agB5cmFPy6_ulYgCO26Q",
+        authDomain: "bancoteste12.firebaseapp.com",
+        databaseURL: "https://bancoteste12.firebaseio.com",
+        projectId: "bancoteste12",
+        storageBucket: "bancoteste12.appspot.com",
+        messagingSenderId: "350607617319"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <style type="text/css">
+        button { width: 165px; }
+    </style>
+</head>
+
+<body>
+    <br>
+    <center>
+        <h4>NOTIFICAÇÃO PUSH</h4>
+        <br>
+        <br>
+        <button id="acao">AÇÃO</button>
+    </center>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
